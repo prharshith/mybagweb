@@ -1,0 +1,159 @@
+<html>
+
+<head>
+
+    <title>Pens</title>
+    <link href="style1.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="pen1.jpg" alt="" onclick="clickme(this)">
+                        <img src="pen2.png" alt="" onclick="clickme(this)">
+                        <img src="pen5.jfif" alt="" onclick="clickme(this)">
+
+                    </div>
+                    <div class="preview">
+                        <img src="pen3.jpg" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <h2>Cello TechnoTip</h2>
+	 <p class="brand">Brand: Cello</p>
+<p>₹10.00 each</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <div class = "product-detail">
+                     <ul>
+              <li>Color: <span>Blue</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Pens</span></li>
+              <li>Shipping Area: <span>All over Hyderabad</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+        </div>
+            <div class = "purchase-info">
+           Quantity <input type = "number" min = "0" value = "1"> 
+            <button type = "button" class = "btn">
+              Add To Cart 
+            </button>
+            <button type = "button" class = "btn">Buy Now</button><br>
+             <a href="../../index.html"><button type="button" class="btn"> Go Back </button></a>
+          </div>                    
+        <div class="related">
+            <h2>related items</h2>
+            <div class="row">
+                <div class="columns">
+                    <div class="items">
+                        <img src="pen10.jpg" alt="">
+                        <div class="details">
+                            <p>Cello Topball</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                            </div>
+
+                            <p>₹10.00</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="pen7.jfif" alt="">
+                        <div class="details">
+                            <p>Cello Butterflow</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹10.00</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="pen8.jpg" alt="">
+                        <div class="details">
+                            <p>Cello Finegrip </p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹5.00 each</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="pen9.jpg" alt="">
+                        <div class="details">
+                            <p>Cello Pinpoint</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹10.00</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>

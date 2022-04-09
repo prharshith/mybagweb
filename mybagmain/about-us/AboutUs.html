@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+
+  <link rel="stylesheet" href="stylepic.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="heading">Meet Our Team</h1>
+
+    <div class="profiles">
+      <div class="profile">
+	<div class="our-team">
+        <img src="pic2.jpeg"  class="profile-img" height="200%">
+
+        <h3 class="user-name">Prateek Siddarth</h3>
+        <h5>Founder</h5>
+        <p>Chase the vision, not the money, the money will end up following you.</p>
+      </div>
+</div><br><br>
+<div class="profile">
+<div class="our-team">
+        <a href="https://instagram.com/p.r_harshith" onclick="return confirm('This Link Redirects To Instagram Profile Of P R Harshith. Are You Sure You Want To Leave The Page?')"><img src="pic1.jpeg" class="profile-img"></a>
+
+        <h3 class="user-name">P R Harshith</h3>
+        <h5>Co-Founder</h5>
+        <p>We are really competing against ourselves, we have no control over how other people perform.</p>
+      </div>
+</div>
+<br><br>
+     
+      <div class="profile">
+<div class="our-team">
+        <img src="pic3.jpeg" class="profile-img">
+
+        <h3 class="user-name">M S Sayi Shesshank</h3>
+        <h5>Creative Director</h5>
+        <p>The only way to be truly satisfied is to do what you believe is great work.</p>
+<br><br>
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+  <span><a href="../../index.html"></a></span>
+<style type="text/css">
+  
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+span{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 640px;
+  perspective: 1000px;
+}
+span a{
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+span a:before,
+span a:after{
+  position: sticky;
+  content: "HOMEPAGE";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before{
+  color: #fff;
+  background: #000;
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after{
+  color: #000;
+  background: #fff;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+
+</style>
+</body>
+</html>

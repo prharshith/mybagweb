@@ -1,0 +1,140 @@
+<html>
+
+<head>
+
+    <title>Books</title>
+    <link href="style3.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="book3.jpg" alt="" onclick="clickme(this)">
+                        <img src="book2.jfif" alt="" onclick="clickme(this)">
+                        <img src="book4.jpg" alt="" onclick="clickme(this)">
+<img src="book5.jpg" alt="" onclick="clickme(this)">
+                    </div>
+                    <div class="preview">
+                        <img src="book1.jpeg" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <h3>Classmate Notebook(Multicolor, Pack of 12)</h3><br>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <div class = "product-detail">
+                     <ul>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Books</span></li>
+
+              <li>Shipping Area: <span>All over Hyderabad</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+        </div>
+            <div class = "purchase-info">
+           Quantity <input type = "number" min = "0" value = "1"><p><strike>MRP:₹420</strike>
+price:₹401(4% off)</p>
+            <button type = "button" class = "btn">
+              Add To Cart 
+            </button>
+            <button type = "button" class = "btn">Buy Now</button><br>
+            <a href="../../index.html"><button type="button" class="btn"> Go Back </button></a>
+            </div>                    
+        <div class="related">
+            <h3>related items</h3><br>
+            <div class="row">
+                <div class="columns">
+                    <div class="items">
+                        <img src="book6.jpeg" alt="">
+                        <div class="details">
+                            <p>Classmate Pulse</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹100.00</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="book7.jpeg" alt="">
+                        <div class="details">
+                            <p>ClassmatePulse</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹101.00</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="items">
+                        <img src="book8.jpeg" alt="">
+                        <div class="details">
+                            <p>ClassmateNotebook</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+
+                            <p>₹59.00</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
