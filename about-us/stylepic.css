@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #12172b;
+  background-color: #3A4468;
   font-family: "Poppins", sans-serif;
 }
 .our-team{
@@ -15,6 +15,14 @@ body {
     border-radius: 15px;
     text-align: center;
 }
+
+.our-team2{
+  padding: 20px 100px 30px;
+  background: black;
+  border-radius: 15px;
+  text-align: center;
+}
+
 
 .container {
   margin: 20px 40px;
